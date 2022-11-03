@@ -12,6 +12,6 @@ public class TestController {
     @GetMapping(path = "/hello",produces = MediaType.APPLICATION_JSON_VALUE)
     @PreAuthorize("hasAuthority('APPROLE_Admin')")
     public String printHelloWorld(){
-        return "Welcome to Print HELLO WORLD METHOD";
+        return "Welcome to Azure ";
     }
 }
